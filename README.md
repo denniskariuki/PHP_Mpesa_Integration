@@ -17,21 +17,8 @@ This project integrates the Safaricom M-Pesa Daraja API into a PHP application, 
 
 ---
 
-## 📁 Project Structure
 
-```bash
-mpesa_integration/
-├── config.php                # Configuration constants (e.g., DB credentials, API keys)
-├── db_connect.php           # Database connection logic
-├── checkout.php             # STK Push initiation form
-├── callback_url.php         # Endpoint to receive M-Pesa callbacks
-├── transactions.php         # Transaction history display
-├── logs/                    # For storing raw callback logs (ignored in Git)
-├── README.md                # Project documentation
-└── .gitignore               # To ignore unnecessary files
-
-
- Technologies Used
+Technologies Used
 PHP (Procedural)
 
 MySQL (with MySQLi)
@@ -60,6 +47,25 @@ Improved logging and error tracking.
 Security enhancements (input sanitization, token checks).
 
 
+![Image](https://github.com/user-attachments/assets/606b4ad9-be5c-483c-a892-6fa243de26de)
+
+![Image](https://github.com/user-attachments/assets/57a7f5dd-9a31-4f4f-8c6d-490f58f5c859)
+
+![Image](https://github.com/user-attachments/assets/5d34fd1e-14af-4c85-9213-9355b2c26f6d)
+
+## 📁 Project Structure
+
+```bash
+mpesa_integration/
+├── config.php                # Configuration constants (e.g., DB credentials, API keys)
+├── db_connect.php           # Database connection logic
+├── checkout.php             # STK Push initiation form
+├── callback_url.php         # Endpoint to receive M-Pesa callbacks
+├── transactions.php         # Transaction history display
+├── logs/                    # For storing raw callback logs (ignored in Git)
+├── README.md                # Project documentation
+└── .gitignore               # To ignore unnecessary files
+
 
 Sample Callback Data
 
@@ -81,6 +87,10 @@ Sample Callback Data
     }
   }
 }
+
+
+
+
 
 
 
